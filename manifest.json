@@ -4,6 +4,7 @@
     "clubs": "clubs.json",
     "players": "players.json",
     "agents": "agents.json",
+    "sponsors": "sponsors.json",
     "logos": "logos/manifest.json"
   }
 }
