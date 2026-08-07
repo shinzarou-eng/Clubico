@@ -1,0 +1,22 @@
+[
+  { "name": "Paris Saint-Germain", "slug": "psg", "country": "France", "league": "Ligue 1", "level": "top" },
+  { "name": "AS Monaco", "slug": "monaco", "country": "France", "league": "Ligue 1", "level": "top" },
+  { "name": "Olympique de Marseille", "slug": "marseille", "country": "France", "league": "Ligue 1", "level": "top" },
+  { "name": "Olympique Lyonnais", "slug": "lyon", "country": "France", "league": "Ligue 1", "level": "top" },
+  { "name": "LOSC Lille", "slug": "lille", "country": "France", "league": "Ligue 1", "level": "top" },
+  { "name": "OGC Nice", "slug": "nice", "country": "France", "league": "Ligue 1", "level": "top" },
+  { "name": "RC Lens", "slug": "lens", "country": "France", "league": "Ligue 1", "level": "good" },
+  { "name": "Stade Rennais", "slug": "rennes", "country": "France", "league": "Ligue 1", "level": "good" },
+  { "name": "RC Strasbourg", "slug": "strasbourg", "country": "France", "league": "Ligue 1", "level": "good" },
+  { "name": "Stade Brestois", "slug": "brest", "country": "France", "league": "Ligue 1", "level": "good" },
+  { "name": "Montpellier HSC", "slug": "montpellier", "country": "France", "league": "Ligue 1", "level": "mid" },
+  { "name": "FC Nantes", "slug": "nantes", "country": "France", "league": "Ligue 1", "level": "mid" },
+  { "name": "Stade de Reims", "slug": "reims", "country": "France", "league": "Ligue 1", "level": "mid" },
+  { "name": "Toulouse FC", "slug": "toulouse", "country": "France", "league": "Ligue 1", "level": "mid" },
+  { "name": "Le Havre AC", "slug": "lehavre", "country": "France", "league": "Ligue 1", "level": "mid" },
+  { "name": "FC Lorient", "slug": "lorient", "country": "France", "league": "Ligue 1", "level": "mid" },
+  { "name": "Angers SCO", "slug": "angers", "country": "France", "league": "Ligue 1", "level": "relegation" },
+  { "name": "AJ Auxerre", "slug": "auxerre", "country": "France", "league": "Ligue 1", "level": "relegation" },
+  { "name": "Clermont Foot", "slug": "clermont", "country": "France", "league": "Ligue 1", "level": "relegation" },
+  { "name": "FC Metz", "slug": "metz", "country": "France", "league": "Ligue 1", "level": "relegation" }
+]

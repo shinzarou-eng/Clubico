@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://raw.githubusercontent.com/shinzarou-eng/Clubico/main/",
+  "files": {
+    "clubs": "clubs.json",
+    "players": "players.json",
+    "agents": "agents.json",
+    "logos": "logos/manifest.json"
+  }
+}
