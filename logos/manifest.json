@@ -17,6 +17,24 @@
     { "slug": "rennes", "url": "logos/rennes.png" },
     { "slug": "saintetienne", "url": "logos/saintetienne.png" },
     { "slug": "strasbourg", "url": "logos/strasbourg.png" },
-    { "slug": "toulouse", "url": "logos/toulouse.png" }
+    { "slug": "toulouse", "url": "logos/toulouse.png" },
+    { "slug": "lorient", "url": "logos/lorient.png" },
+    { "slug": "bordeaux", "url": "logos/bordeaux.png" },
+    { "slug": "caen", "url": "logos/caen.png" },
+    { "slug": "parisfc", "url": "logos/parisfc.png" },
+    { "slug": "bastia", "url": "logos/bastia.png" },
+    { "slug": "laval", "url": "logos/laval.png" },
+    { "slug": "guingamp", "url": "logos/guingamp.png" },
+    { "slug": "grenoble", "url": "logos/grenoble.png" },
+    { "slug": "amiens", "url": "logos/amiens.png" },
+    { "slug": "rodez", "url": "logos/rodez.png" },
+    { "slug": "pau", "url": "logos/pau.png" },
+    { "slug": "annecy", "url": "logos/annecy.png" },
+    { "slug": "ajaccio", "url": "logos/ajaccio.png" },
+    { "slug": "dunkerque", "url": "logos/dunkerque.png" },
+    { "slug": "estactroyes", "url": "logos/estactroyes.png" },
+    { "slug": "valenciennes", "url": "logos/valenciennes.png" },
+    { "slug": "nancy", "url": "logos/nancy.png" },
+    { "slug": "niort", "url": "logos/niort.png" }
   ]
 }
