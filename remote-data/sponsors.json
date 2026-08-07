@@ -1,0 +1,17 @@
+[
+  { "id": "nike", "realName": "Nike", "field": "equipment" },
+  { "id": "adidas", "realName": "Adidas", "field": "equipment" },
+  { "id": "puma", "realName": "Puma", "field": "equipment" },
+  { "id": "new-balance", "realName": "New Balance", "field": "equipment" },
+  { "id": "under-armour", "realName": "Under Armour", "field": "equipment" },
+  { "id": "asics", "realName": "Asics", "field": "equipment" },
+  { "id": "umbro", "realName": "Umbro", "field": "equipment" },
+  { "id": "decathlon", "realName": "Decathlon", "field": "retail" },
+  { "id": "red-bull", "realName": "Red Bull", "field": "energy" },
+  { "id": "gatorade", "realName": "Gatorade", "field": "beverage" },
+  { "id": "pepsi", "realName": "Pepsi", "field": "beverage" },
+  { "id": "coca-cola", "realName": "Coca-Cola", "field": "beverage" },
+  { "id": "monster", "realName": "Monster Energy", "field": "energy" },
+  { "id": "rolex", "realName": "Rolex", "field": "watch" },
+  { "id": "tag-heuer", "realName": "TAG Heuer", "field": "watch" }
+]
