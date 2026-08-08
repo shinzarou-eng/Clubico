@@ -51,6 +51,11 @@
     { "slug": "aubagne", "url": "logos/aubagne.png" },
     { "slug": "boulogne", "url": "logos/boulogne.png" },
     { "slug": "paris13", "url": "logos/paris13.png" },
-    { "slug": "bourgperonnas", "url": "logos/bourgperonnas.png" }
+    { "slug": "bourgperonnas", "url": "logos/bourgperonnas.png" },
+    { "slug": "metz", "url": "logos/metz.png" },
+    { "slug": "redstar", "url": "logos/redstar.png" },
+    { "slug": "fleury", "url": "logos/fleury.png" },
+    { "slug": "lepuy", "url": "logos/lepuy.png" },
+    { "slug": "saintbrieuc", "url": "logos/saintbrieuc.png" }
   ]
 }
