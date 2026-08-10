@@ -56,6 +56,54 @@
     { "slug": "redstar", "url": "logos/redstar.png" },
     { "slug": "fleury", "url": "logos/fleury.png" },
     { "slug": "lepuy", "url": "logos/lepuy.png" },
-    { "slug": "saintbrieuc", "url": "logos/saintbrieuc.png" }
+    { "slug": "saintbrieuc", "url": "logos/saintbrieuc.png" },
+
+    { "slug": "realmadrid", "url": "logos/realmadrid.png" },
+    { "slug": "fcbarcelona", "url": "logos/fcbarcelona.png" },
+    { "slug": "atleticomadrid", "url": "logos/atleticomadrid.png" },
+    { "slug": "athleticbilbao", "url": "logos/athleticbilbao.png" },
+    { "slug": "realsociedad", "url": "logos/realsociedad.png" },
+    { "slug": "villarreal", "url": "logos/villarreal.png" },
+    { "slug": "sevilla", "url": "logos/sevilla.png" },
+    { "slug": "realbetis", "url": "logos/realbetis.png" },
+    { "slug": "valencia", "url": "logos/valencia.png" },
+    { "slug": "girona", "url": "logos/girona.png" },
+
+    { "slug": "manchestercity", "url": "logos/manchestercity.png" },
+    { "slug": "arsenal", "url": "logos/arsenal.png" },
+    { "slug": "liverpool", "url": "logos/liverpool.png" },
+    { "slug": "chelsea", "url": "logos/chelsea.png" },
+    { "slug": "manchesterunited", "url": "logos/manchesterunited.png" },
+    { "slug": "tottenham", "url": "logos/tottenham.png" },
+    { "slug": "newcastle", "url": "logos/newcastle.png" },
+    { "slug": "astonvilla", "url": "logos/astonvilla.png" },
+    { "slug": "brighton", "url": "logos/brighton.png" },
+    { "slug": "westham", "url": "logos/westham.png" },
+
+    { "slug": "fcbayernmunich", "url": "logos/fcbayernmunich.png" },
+    { "slug": "borussiadortmund", "url": "logos/borussiadortmund.png" },
+    { "slug": "bayerleverkusen", "url": "logos/bayerleverkusen.png" },
+    { "slug": "rbleipzig", "url": "logos/rbleipzig.png" },
+    { "slug": "stuttgart", "url": "logos/stuttgart.png" },
+    { "slug": "eintrachtfrankfurt", "url": "logos/eintrachtfrankfurt.png" },
+    { "slug": "wolfsburg", "url": "logos/wolfsburg.png" },
+    { "slug": "freiburg", "url": "logos/freiburg.png" },
+
+    { "slug": "intermilan", "url": "logos/intermilan.png" },
+    { "slug": "acmilan", "url": "logos/acmilan.png" },
+    { "slug": "juventus", "url": "logos/juventus.png" },
+    { "slug": "napoli", "url": "logos/napoli.png" },
+    { "slug": "asroma", "url": "logos/asroma.png" },
+    { "slug": "lazio", "url": "logos/lazio.png" },
+    { "slug": "atalanta", "url": "logos/atalanta.png" },
+    { "slug": "fiorentina", "url": "logos/fiorentina.png" },
+
+    { "slug": "porto", "url": "logos/porto.png" },
+    { "slug": "benfica", "url": "logos/benfica.png" },
+    { "slug": "sporting", "url": "logos/sporting.png" },
+
+    { "slug": "ajax", "url": "logos/ajax.png" },
+    { "slug": "psv", "url": "logos/psv.png" },
+    { "slug": "feyenoord", "url": "logos/feyenoord.png" }
   ]
 }
