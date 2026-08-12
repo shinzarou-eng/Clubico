@@ -1,58 +1,8102 @@
 [
-  { "name": "Paris Saint-Germain", "slug": "psg", "country": "France", "league": "Ligue 1", "level": "top", "coach": "Luis Enrique" },
-  { "name": "Olympique de Marseille", "slug": "marseille", "country": "France", "league": "Ligue 1", "level": "top", "coach": "Roberto De Zerbi" },
-  { "name": "Olympique Lyonnais", "slug": "lyon", "country": "France", "league": "Ligue 1", "level": "top", "coach": "Paulo Fonseca" },
-  { "name": "LOSC Lille", "slug": "lille", "country": "France", "league": "Ligue 1", "level": "top", "coach": "Bruno Génésio" },
-  { "name": "AS Monaco", "slug": "monaco", "country": "France", "league": "Ligue 1", "level": "top", "coach": "Adi Hütter" },
-  { "name": "OGC Nice", "slug": "nice", "country": "France", "league": "Ligue 1", "level": "top", "coach": "Franck Haise" },
-  { "name": "RC Lens", "slug": "lens", "country": "France", "league": "Ligue 1", "level": "good", "coach": "Will Still" },
-  { "name": "Stade Rennais", "slug": "rennes", "country": "France", "league": "Ligue 1", "level": "good", "coach": "Habib Beye" },
-  { "name": "RC Strasbourg", "slug": "strasbourg", "country": "France", "league": "Ligue 1", "level": "good", "coach": "Liam Rosenior" },
-  { "name": "Stade Brestois", "slug": "brest", "country": "France", "league": "Ligue 1", "level": "good", "coach": "Éric Roy" },
-  { "name": "Montpellier HSC", "slug": "montpellier", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Jean-Louis Gasset" },
-  { "name": "FC Nantes", "slug": "nantes", "country": "France", "league": "Ligue 1", "level": "mid", "coach": "Antoine Kombouaré" },
-  { "name": "Stade de Reims", "slug": "reims", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Luka Elsner" },
-  { "name": "Toulouse FC", "slug": "toulouse", "country": "France", "league": "Ligue 1", "level": "mid", "coach": "Carles Martínez Novell" },
-  { "name": "Le Havre AC", "slug": "lehavre", "country": "France", "league": "Ligue 1", "level": "mid", "coach": "Didier Digard" },
-  { "name": "AJ Auxerre", "slug": "auxerre", "country": "France", "league": "Ligue 1", "level": "relegation", "coach": "Christophe Pélissier" },
-  { "name": "Angers SCO", "slug": "angers", "country": "France", "league": "Ligue 1", "level": "relegation", "coach": "Alexandre Dujeux" },
-  { "name": "AS Saint-Étienne", "slug": "saintetienne", "country": "France", "league": "Ligue 2", "level": "relegation", "coach": "Laurent Batlles" },
-  { "name": "FC Metz", "slug": "metz", "country": "France", "league": "Ligue 1", "level": "relegation", "coach": "Stéphane Moulin" },
-
-  { "name": "FC Lorient", "slug": "lorient", "country": "France", "league": "Ligue 1", "level": "top", "coach": "Olivier Pantaloni" },
-  { "name": "Stade Malherbe Caen", "slug": "caen", "country": "France", "league": "Ligue 3", "level": "mid", "coach": "Michel Der Zakarian" },
-  { "name": "Paris FC", "slug": "parisfc", "country": "France", "league": "Ligue 1", "level": "good", "coach": "Stéphane Gilli" },
-  { "name": "SC Bastia", "slug": "bastia", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Benoît Tavenot" },
-  { "name": "Stade Lavallois", "slug": "laval", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Olivier Frapolli" },
-  { "name": "EA Guingamp", "slug": "guingamp", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Sylvain Ripoll" },
-  { "name": "Grenoble Foot 38", "slug": "grenoble", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Franck Rizzetto" },
-  { "name": "Amiens SC", "slug": "amiens", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Omar Daf" },
-  { "name": "Rodez AF", "slug": "rodez", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Didier Santini" },
-  { "name": "Pau FC", "slug": "pau", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Nicolas Usaï" },
-  { "name": "FC Annecy", "slug": "annecy", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Laurent Guyot" },
-  { "name": "USL Dunkerque", "slug": "dunkerque", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Luís Castro" },
-  { "name": "ESTAC Troyes", "slug": "estactroyes", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Stéphane Dumont" },
-  { "name": "Red Star FC", "slug": "redstar", "country": "France", "league": "Ligue 2", "level": "mid", "coach": "Joël Lopez" },
-  { "name": "Clermont Foot 63", "slug": "clermont", "country": "France", "league": "Ligue 2", "level": "relegation", "coach": "Pablo Gaston" },
-
-  { "name": "Le Mans FC", "slug": "lemans", "country": "France", "league": "Ligue 2", "level": "relegation", "coach": "Régis Brouard", "colors": { "primary": "#FF7F00", "secondary": "#000000" } },
-  { "name": "AS Nancy Lorraine", "slug": "nancy", "country": "France", "league": "Ligue 2", "level": "relegation", "coach": "Benoît Pedretti", "colors": { "primary": "#FFFFFF", "secondary": "#E41B13" } },
-  { "name": "US Boulogne", "slug": "boulogne", "country": "France", "league": "Ligue 2", "level": "relegation", "coach": "Ludovic Julliard", "colors": { "primary": "#E41B13", "secondary": "#000000" } },
-
-  { "name": "Valenciennes FC", "slug": "valenciennes", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Pierre-Édouard Boudinot", "colors": { "primary": "#D51B2F", "secondary": "#FFFFFF" } },
-  { "name": "US Concarneau", "slug": "concarneau", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Stéphane Masala", "colors": { "primary": "#000080", "secondary": "#FFD700" } },
-  { "name": "Quevilly-Rouen Métropole", "slug": "qrm", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Fabien Mercadal", "colors": { "primary": "#000000", "secondary": "#FFD700" } },
-  { "name": "Dijon FCO", "slug": "dijon", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Benoît Tavenot", "colors": { "primary": "#000000", "secondary": "#E41B13" } },
-  { "name": "FC Rouen", "slug": "rouen", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Maxime D'Ornano", "colors": { "primary": "#FFFFFF", "secondary": "#000000" } },
-  { "name": "FC Sochaux-Montbéliard", "slug": "sochaux", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Guillaume Warmuz", "colors": { "primary": "#FFD700", "secondary": "#000080" } },
-  { "name": "FC Versailles 78", "slug": "versailles", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Romain Revelli", "colors": { "primary": "#FFFFFF", "secondary": "#0C9446" } },
-  { "name": "US Orléans", "slug": "orleans", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Sylvain Ripoll", "colors": { "primary": "#E41B13", "secondary": "#FFD700" } },
-  { "name": "LB Châteauroux", "slug": "chateauroux", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Karim Mokeddem", "colors": { "primary": "#000080", "secondary": "#FFD700" } },
-  { "name": "FC Villefranche Beaujolais", "slug": "villefranche", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Romain Gasmi", "colors": { "primary": "#000080", "secondary": "#FFFFFF" } },
-  { "name": "Aubagne FC", "slug": "aubagne", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Romain Dupont", "colors": { "primary": "#FFFFFF", "secondary": "#E41B13" } },
-  { "name": "Paris 13 Atletico", "slug": "paris13", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Franck Perichot", "colors": { "primary": "#0C9446", "secondary": "#000000" } },
-  { "name": "Football Bourg-en-Bresse Péronnas 01", "slug": "bourgperonnas", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Cédric Bary", "colors": { "primary": "#000080", "secondary": "#FFFFFF" } },
-  { "name": "FC Fleury 91", "slug": "fleury", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Jean-Marc Pilorget" },
-  { "name": "Le Puy Foot 43", "slug": "lepuy", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Olivier Saragossi" },
-  { "name": "Stade Briochin", "slug": "saintbrieuc", "country": "France", "league": "Ligue 3", "level": "relegation", "coach": "Régis Le Bris" }
+  {
+    "name": "Paris Saint-Germain",
+    "slug": "psg",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "top",
+    "coach": "Luis Enrique"
+  },
+  {
+    "name": "Olympique de Marseille",
+    "slug": "marseille",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "top",
+    "coach": "Roberto De Zerbi"
+  },
+  {
+    "name": "Olympique Lyonnais",
+    "slug": "lyon",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "top",
+    "coach": "Paulo Fonseca"
+  },
+  {
+    "name": "LOSC Lille",
+    "slug": "lille",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "top",
+    "coach": "Bruno Génésio"
+  },
+  {
+    "name": "AS Monaco",
+    "slug": "monaco",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "top",
+    "coach": "Adi Hütter"
+  },
+  {
+    "name": "OGC Nice",
+    "slug": "nice",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "top",
+    "coach": "Franck Haise"
+  },
+  {
+    "name": "RC Lens",
+    "slug": "lens",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "good",
+    "coach": "Will Still"
+  },
+  {
+    "name": "Stade Rennais",
+    "slug": "rennes",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "good",
+    "coach": "Habib Beye"
+  },
+  {
+    "name": "RC Strasbourg",
+    "slug": "strasbourg",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "good",
+    "coach": "Liam Rosenior"
+  },
+  {
+    "name": "Stade Brestois",
+    "slug": "brest",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "good",
+    "coach": "Éric Roy"
+  },
+  {
+    "name": "Montpellier HSC",
+    "slug": "montpellier",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Jean-Louis Gasset"
+  },
+  {
+    "name": "FC Nantes",
+    "slug": "nantes",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "mid",
+    "coach": "Antoine Kombouaré"
+  },
+  {
+    "name": "Stade de Reims",
+    "slug": "reims",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Luka Elsner"
+  },
+  {
+    "name": "Toulouse FC",
+    "slug": "toulouse",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "mid",
+    "coach": "Carles Martínez Novell"
+  },
+  {
+    "name": "Le Havre AC",
+    "slug": "lehavre",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "mid",
+    "coach": "Didier Digard"
+  },
+  {
+    "name": "AJ Auxerre",
+    "slug": "auxerre",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "relegation",
+    "coach": "Christophe Pélissier"
+  },
+  {
+    "name": "Angers SCO",
+    "slug": "angers",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "relegation",
+    "coach": "Alexandre Dujeux"
+  },
+  {
+    "name": "AS Saint-Étienne",
+    "slug": "saintetienne",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "relegation",
+    "coach": "Laurent Batlles"
+  },
+  {
+    "name": "FC Metz",
+    "slug": "metz",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "relegation",
+    "coach": "Stéphane Moulin"
+  },
+  {
+    "name": "FC Lorient",
+    "slug": "lorient",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "top",
+    "coach": "Olivier Pantaloni"
+  },
+  {
+    "name": "Stade Malherbe Caen",
+    "slug": "caen",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "mid",
+    "coach": "Michel Der Zakarian"
+  },
+  {
+    "name": "Paris FC",
+    "slug": "parisfc",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "good",
+    "coach": "Stéphane Gilli"
+  },
+  {
+    "name": "SC Bastia",
+    "slug": "bastia",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Benoît Tavenot"
+  },
+  {
+    "name": "Stade Lavallois",
+    "slug": "laval",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Olivier Frapolli"
+  },
+  {
+    "name": "EA Guingamp",
+    "slug": "guingamp",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Sylvain Ripoll"
+  },
+  {
+    "name": "Grenoble Foot 38",
+    "slug": "grenoble",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Franck Rizzetto"
+  },
+  {
+    "name": "Amiens SC",
+    "slug": "amiens",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Omar Daf"
+  },
+  {
+    "name": "Rodez AF",
+    "slug": "rodez",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Didier Santini"
+  },
+  {
+    "name": "Pau FC",
+    "slug": "pau",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Nicolas Usaï"
+  },
+  {
+    "name": "FC Annecy",
+    "slug": "annecy",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Laurent Guyot"
+  },
+  {
+    "name": "USL Dunkerque",
+    "slug": "dunkerque",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Luís Castro"
+  },
+  {
+    "name": "ESTAC Troyes",
+    "slug": "estactroyes",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Stéphane Dumont"
+  },
+  {
+    "name": "Red Star FC",
+    "slug": "redstar",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "mid",
+    "coach": "Joël Lopez"
+  },
+  {
+    "name": "Clermont Foot 63",
+    "slug": "clermont",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "relegation",
+    "coach": "Pablo Gaston"
+  },
+  {
+    "name": "Le Mans FC",
+    "slug": "lemans",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "relegation",
+    "coach": "Régis Brouard",
+    "colors": {
+      "primary": "#FF7F00",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "name": "AS Nancy Lorraine",
+    "slug": "nancy",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "relegation",
+    "coach": "Benoît Pedretti",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#E41B13"
+    }
+  },
+  {
+    "name": "US Boulogne",
+    "slug": "boulogne",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "relegation",
+    "coach": "Ludovic Julliard",
+    "colors": {
+      "primary": "#E41B13",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "name": "Valenciennes FC",
+    "slug": "valenciennes",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Pierre-Édouard Boudinot",
+    "colors": {
+      "primary": "#D51B2F",
+      "secondary": "#FFFFFF"
+    }
+  },
+  {
+    "name": "US Concarneau",
+    "slug": "concarneau",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Stéphane Masala",
+    "colors": {
+      "primary": "#000080",
+      "secondary": "#FFD700"
+    }
+  },
+  {
+    "name": "Quevilly-Rouen Métropole",
+    "slug": "qrm",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Fabien Mercadal",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFD700"
+    }
+  },
+  {
+    "name": "Dijon FCO",
+    "slug": "dijon",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Benoît Tavenot",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#E41B13"
+    }
+  },
+  {
+    "name": "FC Rouen",
+    "slug": "rouen",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Maxime D'Ornano",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "name": "FC Sochaux-Montbéliard",
+    "slug": "sochaux",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Guillaume Warmuz",
+    "colors": {
+      "primary": "#FFD700",
+      "secondary": "#000080"
+    }
+  },
+  {
+    "name": "FC Versailles 78",
+    "slug": "versailles",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Romain Revelli",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#0C9446"
+    }
+  },
+  {
+    "name": "US Orléans",
+    "slug": "orleans",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Sylvain Ripoll",
+    "colors": {
+      "primary": "#E41B13",
+      "secondary": "#FFD700"
+    }
+  },
+  {
+    "name": "LB Châteauroux",
+    "slug": "chateauroux",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Karim Mokeddem",
+    "colors": {
+      "primary": "#000080",
+      "secondary": "#FFD700"
+    }
+  },
+  {
+    "name": "FC Villefranche Beaujolais",
+    "slug": "villefranche",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Romain Gasmi",
+    "colors": {
+      "primary": "#000080",
+      "secondary": "#FFFFFF"
+    }
+  },
+  {
+    "name": "Aubagne FC",
+    "slug": "aubagne",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Romain Dupont",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#E41B13"
+    }
+  },
+  {
+    "name": "Paris 13 Atletico",
+    "slug": "paris13",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Franck Perichot",
+    "colors": {
+      "primary": "#0C9446",
+      "secondary": "#000000"
+    }
+  },
+  {
+    "name": "Football Bourg-en-Bresse Péronnas 01",
+    "slug": "bourgperonnas",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Cédric Bary",
+    "colors": {
+      "primary": "#000080",
+      "secondary": "#FFFFFF"
+    }
+  },
+  {
+    "name": "FC Fleury 91",
+    "slug": "fleury",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Jean-Marc Pilorget"
+  },
+  {
+    "name": "Le Puy Foot 43",
+    "slug": "lepuy",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Olivier Saragossi"
+  },
+  {
+    "name": "Stade Briochin",
+    "slug": "saintbrieuc",
+    "country": "France",
+    "league": "Ligue 3",
+    "level": "relegation",
+    "coach": "Régis Le Bris"
+  },
+  {
+    "name": "Clubs   FMInside Football Manager Community",
+    "slug": "clubsfminsidefootballmanagercommunity",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Fleury 91",
+    "slug": "fcfleury91",
+    "country": "France",
+    "league": "Division 1",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Dijon FCO",
+    "slug": "dijonfco",
+    "country": "France",
+    "league": "Division 1",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "EA Guingamp",
+    "slug": "eaguingamp",
+    "country": "France",
+    "league": "Division 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Metz",
+    "slug": "fcmetz",
+    "country": "France",
+    "league": "Ligue 1",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Rodez AF",
+    "slug": "rodezaf",
+    "country": "France",
+    "league": "Division 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Clermont Foot",
+    "slug": "clermontfoot",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Le Mans FC",
+    "slug": "lemansfc",
+    "country": "France",
+    "league": "Division 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Bordeaux",
+    "slug": "bordeaux",
+    "country": "France",
+    "league": "Division 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Troyes",
+    "slug": "troyes",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SC Bastia",
+    "slug": "scbastia",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SM Caen",
+    "slug": "smcaen",
+    "country": "France",
+    "league": "Championnat National",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USL Dunkerque",
+    "slug": "usldunkerque",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Lavallois",
+    "slug": "stadelavallois",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Thonon Evian Grand Geneve",
+    "slug": "thononeviangrandgeneve",
+    "country": "France",
+    "league": "Division 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pau FC",
+    "slug": "paufc",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Nancy",
+    "slug": "asnancy",
+    "country": "France",
+    "league": "Ligue 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Saint-Malo",
+    "slug": "ussaintmalo",
+    "country": "France",
+    "league": "Division 2",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "INF Clairefontaine",
+    "slug": "infclairefontaine",
+    "country": "France",
+    "league": "No Division",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Quevilly",
+    "slug": "quevilly",
+    "country": "France",
+    "league": "Championnat National",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Orléans",
+    "slug": "usorleans",
+    "country": "France",
+    "league": "Division 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Rouen",
+    "slug": "fcrouen",
+    "country": "France",
+    "league": "Championnat National",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Bourg en Bresse",
+    "slug": "bourgenbresse",
+    "country": "France",
+    "league": "Championnat National",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Versailles",
+    "slug": "fcversailles",
+    "country": "France",
+    "league": "Championnat National",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Nîmes",
+    "slug": "nimes",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SC Aubagne Air Bel",
+    "slug": "scaubagneairbel",
+    "country": "France",
+    "league": "Championnat National",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Paris 13 Atlético",
+    "slug": "paris13atletico",
+    "country": "France",
+    "league": "Championnat National",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Le Puy Foot 43",
+    "slug": "lepuyfoot43",
+    "country": "France",
+    "league": "Championnat National",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Briochin",
+    "slug": "stadebriochin",
+    "country": "France",
+    "league": "Championnat National",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Chambly",
+    "slug": "chambly",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Football Club 93 BBG",
+    "slug": "footballclub93bbg",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Créteil",
+    "slug": "creteil",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Cannes",
+    "slug": "ascannes",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Avranches",
+    "slug": "usavranches",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SAS Epinal",
+    "slug": "sasepinal",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Istres FC",
+    "slug": "istresfc",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Montauban FC TG",
+    "slug": "montaubanfctg",
+    "country": "France",
+    "league": "Division 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Vendée Herbiers Foot",
+    "slug": "vendeeherbiersfoot",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Borgo",
+    "slug": "fcborgo",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Olympique Saumur FC",
+    "slug": "olympiquesaumurfc",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Thionville Lusitanos",
+    "slug": "usthionvillelusitanos",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SCS Locminé",
+    "slug": "scslocmine",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Bourges FC",
+    "slug": "bourgesfc",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Granville",
+    "slug": "granville",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Wasquehal Football",
+    "slug": "wasquehalfootball",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Entente Feignies Aulnoye",
+    "slug": "ententefeigniesaulnoye",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Angoulême Charente FC",
+    "slug": "angoulemecharentefc",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Châteaubriant",
+    "slug": "chateaubriant",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Furiani-Agliani",
+    "slug": "asfurianiagliani",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "St-Pryvé St-Hilaire FC",
+    "slug": "stpryvesthilairefc",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Biesheim ASC",
+    "slug": "biesheimasc",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Blois Foot 41",
+    "slug": "bloisfoot41",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Roubaix Wervicq",
+    "slug": "rcroubaixwervicq",
+    "country": "France",
+    "league": "Division 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FCSR Haguenau",
+    "slug": "fcsrhaguenau",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Chantilly",
+    "slug": "uschantilly",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Beauvais Oise",
+    "slug": "asbeauvaisoise",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Grasse",
+    "slug": "rcgrasse",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Hyères 83 FC",
+    "slug": "hyeres83fc",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GOAL FC",
+    "slug": "goalfc",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "EFC Fréjus Saint-Raphaël",
+    "slug": "efcfrejussaintraphael",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GFA Rumilly-Vallières",
+    "slug": "gfarumillyvallieres",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SC Toulon",
+    "slug": "sctoulon",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Andrézieux-Bouthéon FC",
+    "slug": "andrezieuxboutheonfc",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Limonest Dardilly",
+    "slug": "limonestdardilly",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Ajaccio",
+    "slug": "ajaccio",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Genêts Anglet",
+    "slug": "genetsanglet",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Jura-Sud Football",
+    "slug": "jurasudfootball",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FCM Aubervilliers",
+    "slug": "fcmaubervilliers",
+    "country": "France",
+    "league": "National 3 - Group D",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Rousset SVO",
+    "slug": "fcroussetsvo",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Montlouis",
+    "slug": "fcmontlouis",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Lusitanos Saint-Maur",
+    "slug": "uslusitanossaintmaur",
+    "country": "France",
+    "league": "National 2 Groupe C",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Chauray",
+    "slug": "fcchauray",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Aviron Bayonnais",
+    "slug": "avironbayonnais",
+    "country": "France",
+    "league": "National 2 Groupe A",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Sedan",
+    "slug": "sedan",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SR Colmar",
+    "slug": "srcolmar",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Lyon - La Duchère",
+    "slug": "lyonladuchere",
+    "country": "France",
+    "league": "National 3 - Group H",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Balagne",
+    "slug": "fcbalagne",
+    "country": "France",
+    "league": "National 3 - Group E",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CPB Bréquigny Rennes",
+    "slug": "cpbbrequignyrennes",
+    "country": "France",
+    "league": "Division 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Le Poiré-sur-Vie VF",
+    "slug": "lepoiresurvievf",
+    "country": "France",
+    "league": "National 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Gaz. Ajaccio",
+    "slug": "gazajaccio",
+    "country": "France",
+    "league": "National 3 - Group E",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Dieppe",
+    "slug": "fcdieppe",
+    "country": "France",
+    "league": "National 2 Groupe B",
+    "level": "medium",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Cholet",
+    "slug": "cholet",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Marignane GCB FC",
+    "slug": "marignanegcbfc",
+    "country": "France",
+    "league": "Régional 1 - Méditerranée",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ALC Longvic",
+    "slug": "alclongvic",
+    "country": "France",
+    "league": "Division 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Vannes",
+    "slug": "vannes",
+    "country": "France",
+    "league": "National 3 - Group C",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AAS Sarcelles",
+    "slug": "aassarcelles",
+    "country": "France",
+    "league": "Division 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Lorient",
+    "slug": "fclorient",
+    "country": "France",
+    "league": "Division 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Lège Cap-Ferret",
+    "slug": "uslegecapferret",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ASPTT Caen",
+    "slug": "aspttcaen",
+    "country": "France",
+    "league": "Régional 1 - Normandie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Olympique Alès Cévènnes",
+    "slug": "olympiquealescevennes",
+    "country": "France",
+    "league": "National 3 - Group H",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Chambéry SF",
+    "slug": "chamberysf",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Calais",
+    "slug": "rccalais",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Albères-Argelès",
+    "slug": "fcalberesargeles",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Mâcon 71",
+    "slug": "macon71",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Saint-Ouen-l'Aumône",
+    "slug": "assaintouenlaumone",
+    "country": "France",
+    "league": "National 3 - Group D",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Chamalières",
+    "slug": "fcchamalieres",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ESOF Vendée Roche-sur-Yon",
+    "slug": "esofvendeerochesuryon",
+    "country": "France",
+    "league": "Division 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Racing CFF",
+    "slug": "racingcff",
+    "country": "France",
+    "league": "National 3 - Group D",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Louhans-Cuiseaux FC",
+    "slug": "louhanscuiseauxfc",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Bassin Arcachon",
+    "slug": "fcbassinarcachon",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Grand-Quevilly FC",
+    "slug": "grandquevillyfc",
+    "country": "France",
+    "league": "Régional 1 - Normandie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "C' Chartres",
+    "slug": "cchartres",
+    "country": "France",
+    "league": "National 3 - Group D",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Castanet-Tolosan",
+    "slug": "uscastanettolosan",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Vierzon FC",
+    "slug": "vierzonfc",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Bordelais",
+    "slug": "stadebordelais",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Chassieu Décines FC",
+    "slug": "chassieudecinesfc",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ESA Linas-Montlhéry",
+    "slug": "esalinasmontlhery",
+    "country": "France",
+    "league": "National 3 - Group D",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Onet le Château",
+    "slug": "onetlechateau",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AG Caen",
+    "slug": "agcaen",
+    "country": "France",
+    "league": "Régional 1 - Normandie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "UCS Cosne",
+    "slug": "ucscosne",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Colomiers",
+    "slug": "uscolomiers",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Hauts Lyonnais",
+    "slug": "hautslyonnais",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SU Dives - Cabourg",
+    "slug": "sudivescabourg",
+    "country": "France",
+    "league": "National 3 - Group D",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Brétigny Foot CS",
+    "slug": "bretignyfootcs",
+    "country": "France",
+    "league": "National 3 - Group D",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Trélissac FC",
+    "slug": "trelissacfc",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Sablé FC",
+    "slug": "sablefc",
+    "country": "France",
+    "league": "Régional 1 - Pays de la Loire - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "OC Cesson",
+    "slug": "occesson",
+    "country": "France",
+    "league": "National 3 - Group C",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ASM Belfort",
+    "slug": "asmbelfort",
+    "country": "France",
+    "league": "National 3 - Group F",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Avoine Chinon",
+    "slug": "avoinechinon",
+    "country": "France",
+    "league": "Régional 1 - Centre Val de Loire",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Lannion FC",
+    "slug": "lannionfc",
+    "country": "France",
+    "league": "National 3 - Group C",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Sannois SG",
+    "slug": "sannoissg",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Jura Dolois Football",
+    "slug": "juradoloisfootball",
+    "country": "France",
+    "league": "National 3 - Group F",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Vineuil SF",
+    "slug": "vineuilsf",
+    "country": "France",
+    "league": "Régional 1 - Centre Val de Loire",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Vitré",
+    "slug": "asvitre",
+    "country": "France",
+    "league": "National 3 - Group C",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Ivry Football",
+    "slug": "usivryfootball",
+    "country": "France",
+    "league": "National 3 - Group F",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GSI Pontivy",
+    "slug": "gsipontivy",
+    "country": "France",
+    "league": "National 3 - Group C",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Union Foot de Touraine",
+    "slug": "unionfootdetouraine",
+    "country": "France",
+    "league": "National 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Riviera FC",
+    "slug": "rivierafc",
+    "country": "France",
+    "league": "National 3 - Group H",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Olympique Charleville",
+    "slug": "olympiquecharleville",
+    "country": "France",
+    "league": "National 3 - Group E",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Beaucairois FC",
+    "slug": "stadebeaucairoisfc",
+    "country": "France",
+    "league": "National 3 - Group H",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Iris Club Croix",
+    "slug": "irisclubcroix",
+    "country": "France",
+    "league": "National 3 - Group E",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Challans",
+    "slug": "fcchallans",
+    "country": "France",
+    "league": "National 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Orvault",
+    "slug": "orvault",
+    "country": "France",
+    "league": "Division 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USC Corte",
+    "slug": "usccorte",
+    "country": "France",
+    "league": "Régional 1 - Corse",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SFC Neuilly-sur-Marne",
+    "slug": "sfcneuillysurmarne",
+    "country": "France",
+    "league": "National 3 - Group E",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Chauvigny",
+    "slug": "uschauvigny",
+    "country": "France",
+    "league": "National 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "JA Drancy",
+    "slug": "jadrancy",
+    "country": "France",
+    "league": "National 3 - Group E",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USSA Vertou",
+    "slug": "ussavertou",
+    "country": "France",
+    "league": "National 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GC Lucciana",
+    "slug": "gclucciana",
+    "country": "France",
+    "league": "National 3 - Group H",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Pays du Valois",
+    "slug": "uspaysduvalois",
+    "country": "France",
+    "league": "National 3 - Group E",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "TA Rennes",
+    "slug": "tarennes",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Panazol",
+    "slug": "aspanazol",
+    "country": "France",
+    "league": "National 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Sarreguemines FC",
+    "slug": "sarregueminesfc",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Sainte-Geneviève Sports",
+    "slug": "saintegenevievesports",
+    "country": "France",
+    "league": "National 3 - Group D",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Sarre-Union",
+    "slug": "ussarreunion",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Moulins Yzeure Foot",
+    "slug": "moulinsyzeurefoot",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SC Sète",
+    "slug": "scsete",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CMS Oissel",
+    "slug": "cmsoissel",
+    "country": "France",
+    "league": "National 3 - Group D",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Blagnac FC",
+    "slug": "blagnacfc",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Espaly",
+    "slug": "fcespaly",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Plabennec",
+    "slug": "stadeplabennec",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RCO Agde",
+    "slug": "rcoagde",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Romorantin",
+    "slug": "romorantin",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Fougères",
+    "slug": "usfougeres",
+    "country": "France",
+    "league": "National 3 - Group C",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Montceau Bourgogne",
+    "slug": "fcmontceaubourgogne",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Canet Roussillon FC",
+    "slug": "canetroussillonfc",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Racing Besançon",
+    "slug": "racingbesancon",
+    "country": "France",
+    "league": "National 3 - Group F",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SP Milizac",
+    "slug": "spmilizac",
+    "country": "France",
+    "league": "National 3 - Group C",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Gueugnon",
+    "slug": "fcgueugnon",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC 2 Rives 82",
+    "slug": "fc2rives82",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Fagnières",
+    "slug": "esfagnieres",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "OFC Les Mureaux",
+    "slug": "ofclesmureaux",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CA Neuville",
+    "slug": "caneuville",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SA Thiers",
+    "slug": "sathiers",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Moulon Bourges",
+    "slug": "esmoulonbourges",
+    "country": "France",
+    "league": "Régional 1 - Centre Val de Loire",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Houilles AC",
+    "slug": "houillesac",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Saint-Méziéry",
+    "slug": "fcsaintmeziery",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Châtenoy",
+    "slug": "aschatenoy",
+    "country": "France",
+    "league": "Division 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Cagnes Le Cros",
+    "slug": "ascagneslecros",
+    "country": "France",
+    "league": "Régional 1 - Méditerranée",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Esp. Aulnaysienne",
+    "slug": "espaulnaysienne",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Périgny",
+    "slug": "fcperigny",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Epernay",
+    "slug": "rcepernay",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SC Bocognano",
+    "slug": "scbocognano",
+    "country": "France",
+    "league": "Régional 1 - Corse",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ESC Longueau",
+    "slug": "esclongueau",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Ploërmel FC",
+    "slug": "ploermelfc",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Ancienne Château-Gontier",
+    "slug": "anciennechateaugontier",
+    "country": "France",
+    "league": "Régional 1 - Pays de la Loire - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pôle Espoirs Ajaccio",
+    "slug": "poleespoirsajaccio",
+    "country": "France",
+    "league": "No Division",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Les Sables VF",
+    "slug": "lessablesvf",
+    "country": "France",
+    "league": "National 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Le Mée Sports",
+    "slug": "lemeesports",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CSO Amnéville",
+    "slug": "csoamneville",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Molsheim Ernolsheim",
+    "slug": "esmolsheimernolsheim",
+    "country": "France",
+    "league": "Division 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Vignoc-Hédé-Guipel",
+    "slug": "asvignochedeguipel",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pôle Espoirs Castelmaurou",
+    "slug": "poleespoirscastelmaurou",
+    "country": "France",
+    "league": "No Division",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GS Neuves-Maisons",
+    "slug": "gsneuvesmaisons",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - C",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Vauvert",
+    "slug": "fcvauvert",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Marcel Foot",
+    "slug": "saintmarcelfoot",
+    "country": "France",
+    "league": "Régional 1 - Normandie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Chaumont FC",
+    "slug": "chaumontfc",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Afa F.A",
+    "slug": "afafa",
+    "country": "France",
+    "league": "Régional 1 - Corse",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Amand FC",
+    "slug": "saintamandfc",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CPB Bréquigny",
+    "slug": "cpbbrequigny",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint Julien Divatte FC",
+    "slug": "saintjuliendivattefc",
+    "country": "France",
+    "league": "Régional - Pays de la Loire - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pôle Espoirs Châteauroux",
+    "slug": "poleespoirschateauroux",
+    "country": "France",
+    "league": "No Division",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Bergerac Périgord FC",
+    "slug": "bergeracperigordfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Fabrègues",
+    "slug": "asfabregues",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ESM Gonfreville",
+    "slug": "esmgonfreville",
+    "country": "France",
+    "league": "Régional 1 - Normandie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Arras FA",
+    "slug": "arrasfa",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pôle Espoirs Ploufragan",
+    "slug": "poleespoirsploufragan",
+    "country": "France",
+    "league": "No Division",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ASL Koetzingue",
+    "slug": "aslkoetzingue",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - C",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES du Grau-du-Roi",
+    "slug": "esdugrauduroi",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Evreux FC 27",
+    "slug": "evreuxfc27",
+    "country": "France",
+    "league": "Régional 1 - Normandie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Feurs",
+    "slug": "usfeurs",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Buxerolles",
+    "slug": "esbuxerolles",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Monistrol-sur-Loire",
+    "slug": "usmonistrolsurloire",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Gravelines",
+    "slug": "usgravelines",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Keriolets de Pluvigner",
+    "slug": "kerioletsdepluvigner",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Tarbes Pyrénées Football",
+    "slug": "tarbespyreneesfootball",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Six-Fours Le Brusc FC",
+    "slug": "sixfourslebruscfc",
+    "country": "France",
+    "league": "Régional 1 - Méditerranée",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CS Feytiat",
+    "slug": "csfeytiat",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Blavozy",
+    "slug": "usblavozy",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Béthunois",
+    "slug": "stadebethunois",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pontivy Stade",
+    "slug": "pontivystade",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ASC Saint-Apollinaire",
+    "slug": "ascsaintapollinaire",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Gémenos",
+    "slug": "asgemenos",
+    "country": "France",
+    "league": "Régional 1 - Méditerranée",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Brice FC",
+    "slug": "saintbricefc",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Montagnarde",
+    "slug": "usmontagnarde",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USC Dijon",
+    "slug": "uscdijon",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Reipertswiller",
+    "slug": "usreipertswiller",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Riomois",
+    "slug": "fcriomois",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Sens",
+    "slug": "fcsens",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SC Schiltigheim",
+    "slug": "scschiltigheim",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Mandelieu LN",
+    "slug": "usmandelieuln",
+    "country": "France",
+    "league": "Régional 1 - Méditerranée",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Montrouge FC 92",
+    "slug": "montrougefc92",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Nueillaubiers",
+    "slug": "fcnueillaubiers",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Montluçon Foot",
+    "slug": "montluconfoot",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Saint-Jean-le-Blanc",
+    "slug": "fcsaintjeanleblanc",
+    "country": "France",
+    "league": "Régional 1 - Centre Val de Loire",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Forbach",
+    "slug": "usforbach",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Carnoux FC",
+    "slug": "carnouxfc",
+    "country": "France",
+    "league": "National 3 - Group H",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Biganos",
+    "slug": "fcbiganos",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Saint Cyr-Collonges-Mont d'Or",
+    "slug": "fcsaintcyrcollongesmontdor",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AFC Compiègne",
+    "slug": "afccompiegne",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Quessoy",
+    "slug": "usquessoy",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Sébastien FC",
+    "slug": "saintsebastienfc",
+    "country": "France",
+    "league": "Régional - Pays de la Loire - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Jarville JF",
+    "slug": "jarvillejf",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - C",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Avenir Foot Lozère",
+    "slug": "avenirfootlozere",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Bayeux FC",
+    "slug": "bayeuxfc",
+    "country": "France",
+    "league": "Régional 1 - Normandie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Mazères-Uzos-Rontignon",
+    "slug": "asmazeresuzosrontignon",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Laon",
+    "slug": "uslaon",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Pont-de-Roide",
+    "slug": "uspontderoide",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Mareuil Sporting Club",
+    "slug": "mareuilsportingclub",
+    "country": "France",
+    "league": "Régional - Pays de la Loire - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "A.S Béziers",
+    "slug": "asbeziers",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint Paul Sport Football",
+    "slug": "saintpaulsportfootball",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Maubeuge",
+    "slug": "usmaubeuge",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Liffré",
+    "slug": "usliffre",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Ornans",
+    "slug": "asornans",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "JS Coulaines",
+    "slug": "jscoulaines",
+    "country": "France",
+    "league": "Régional - Pays de la Loire - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Illzach-Modenheim",
+    "slug": "asillzachmodenheim",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - C",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SA Mérignac",
+    "slug": "samerignac",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Plastics Vallée FC",
+    "slug": "plasticsvalleefc",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AC Cambrai",
+    "slug": "accambrai",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Séné FC",
+    "slug": "senefc",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Morteau/Montlebon",
+    "slug": "fcmorteaumontlebon",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Bonchampoise",
+    "slug": "esbonchampoise",
+    "country": "France",
+    "league": "Régional - Pays de la Loire - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Atlas Paillade",
+    "slug": "asatlaspaillade",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Boulazac",
+    "slug": "esboulazac",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Bains-sur-Oust",
+    "slug": "bainssuroust",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Grandvillars",
+    "slug": "fcgrandvillars",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AC Le Pontet Vedène",
+    "slug": "aclepontetvedene",
+    "country": "France",
+    "league": "Régional 1 - Méditerranée",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "MOS Caen",
+    "slug": "moscaen",
+    "country": "France",
+    "league": "Régional 1 - Normandie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Bressuire",
+    "slug": "fcbressuire",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Tourcoing",
+    "slug": "ustourcoing",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "EA Saint-Renan",
+    "slug": "easaintrenan",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Is-Selongey",
+    "slug": "isselongey",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Luynes Sports",
+    "slug": "luynessports",
+    "country": "France",
+    "league": "Régional 1 - Méditerranée",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pacy Ménilles RC",
+    "slug": "pacymenillesrc",
+    "country": "France",
+    "league": "Régional 1 - Normandie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Audincourt",
+    "slug": "asaudincourt",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "APM Metz",
+    "slug": "apmmetz",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "La Clermontaise",
+    "slug": "laclermontaise",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Jeunesse Villenavaise",
+    "slug": "jeunessevillenavaise",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Plougastel FC",
+    "slug": "plougastelfc",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Vesoul",
+    "slug": "fcvesoul",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Illkirch FAIG",
+    "slug": "illkirchfaig",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FU Narbonne",
+    "slug": "funarbonne",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Luneray",
+    "slug": "usluneray",
+    "country": "France",
+    "league": "Régional 1 - Normandie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FCE Mérignac-Arlac",
+    "slug": "fcemerignacarlac",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Rhône-Vallées",
+    "slug": "fcrhonevallees",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USP Saint-Omer",
+    "slug": "uspsaintomer",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Ginglin-Cesson",
+    "slug": "asginglincesson",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Hombourg-Haut",
+    "slug": "hombourghaut",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SAG Cestas",
+    "slug": "sagcestas",
+    "country": "France",
+    "league": "National 3 - Group A",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GC Lunel",
+    "slug": "gclunel",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Vaulx",
+    "slug": "fcvaulx",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Olympique Marcquois",
+    "slug": "olympiquemarcquois",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ASA Vauzelles",
+    "slug": "asavauzelles",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Still Mutzig",
+    "slug": "stillmutzig",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ASFAC Frontignan",
+    "slug": "asfacfrontignan",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saran Football Club",
+    "slug": "saranfootballclub",
+    "country": "France",
+    "league": "National 3 - Group G",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Steenvoorde",
+    "slug": "assteenvoorde",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "La Chapelle-de-Guinchay",
+    "slug": "lachapelledeguinchay",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Obermodern",
+    "slug": "fcobermodern",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Beausoleil",
+    "slug": "fcbeausoleil",
+    "country": "France",
+    "league": "Régional 1 - Méditerranée",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USC Mézidon",
+    "slug": "uscmezidon",
+    "country": "France",
+    "league": "Régional 1 - Normandie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Bondues FC",
+    "slug": "bonduesfc",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SS Weyersheim",
+    "slug": "ssweyersheim",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Arin Luzien",
+    "slug": "arinluzien",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Bastelicaccia",
+    "slug": "fcbastelicaccia",
+    "country": "France",
+    "league": "Régional 1 - Corse",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ESA Brive",
+    "slug": "esabrive",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Le Mans Villaret",
+    "slug": "aslemansvillaret",
+    "country": "France",
+    "league": "Régional 1 - Pays de la Loire - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pôle Espoirs Aix/Provence",
+    "slug": "poleespoirsaixprovence",
+    "country": "France",
+    "league": "No Division",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Drouais",
+    "slug": "fcdrouais",
+    "country": "France",
+    "league": "Régional 1 - Centre Val de Loire",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Balma SC",
+    "slug": "balmasc",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Villejuif",
+    "slug": "usvillejuif",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Chalon",
+    "slug": "fcchalon",
+    "country": "France",
+    "league": "National 3 - Group F",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Nazaire AF",
+    "slug": "saintnazaireaf",
+    "country": "France",
+    "league": "Régional 1 - Pays de la Loire - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pôle Espoirs Dijon",
+    "slug": "poleespoirsdijon",
+    "country": "France",
+    "league": "No Division",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Revel",
+    "slug": "usrevel",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Marnaval SC",
+    "slug": "marnavalsc",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Albi Marssac TF",
+    "slug": "albimarssactf",
+    "country": "France",
+    "league": "Division 3 - Group B",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pouzauges Bocage FC",
+    "slug": "pouzaugesbocagefc",
+    "country": "France",
+    "league": "Régional 1 - Pays de la Loire - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Pôle Espoirs de Liévin",
+    "slug": "poleespoirsdelievin",
+    "country": "France",
+    "league": "No Division",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Lunéville",
+    "slug": "fcluneville",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - C",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Muret",
+    "slug": "asmuret",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Val Yerres Crosne AF",
+    "slug": "valyerrescrosneaf",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Casinca",
+    "slug": "ascasinca",
+    "country": "France",
+    "league": "Régional 1 - Corse",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Mulhouse",
+    "slug": "fcmulhouse",
+    "country": "France",
+    "league": "National 3 - Group F",
+    "level": "low",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FCAV Redon",
+    "slug": "fcavredon",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Landerneau FC",
+    "slug": "landerneaufc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Quetigny",
+    "slug": "asquetigny",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Hégenheim",
+    "slug": "fchegenheim",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Hagondange",
+    "slug": "fchagondange",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Gisors Vexin Normand",
+    "slug": "fcgisorsvexinnormand",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Oberlauterbach",
+    "slug": "usoberlauterbach",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Déols",
+    "slug": "fcdeols",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Trégunc",
+    "slug": "ustregunc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SPN Vernon",
+    "slug": "spnvernon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Pays Maîchois",
+    "slug": "espaysmaichois",
+    "country": "France",
+    "league": "Régional 1 - Bourgogne FC - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Plouzané AC",
+    "slug": "plouzaneac",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Beaune",
+    "slug": "asbeaune",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Luzenac Ariège Pyrénées",
+    "slug": "luzenacariegepyrenees",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Escaudain",
+    "slug": "usescaudain",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GDR Guipavas",
+    "slug": "gdrguipavas",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Montigny-en-Gohelle",
+    "slug": "fcmontignyengohelle",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC du Langonnais",
+    "slug": "fcdulangonnais",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES La Rochelle",
+    "slug": "eslarochelle",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Champigneulles",
+    "slug": "rcchampigneulles",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Bolbec",
+    "slug": "usbolbec",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Poissy FC",
+    "slug": "poissyfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Gandrange",
+    "slug": "esgandrange",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Reims Sainte Anne",
+    "slug": "reimssainteanne",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Ain Sud",
+    "slug": "ainsud",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Sénart-Moissy",
+    "slug": "senartmoissy",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Choisy-au-Bac",
+    "slug": "uschoisyaubac",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Ghisonaccia Prunelli",
+    "slug": "asghisonacciaprunelli",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AC Boulogne-Billancourt",
+    "slug": "acboulognebillancourt",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Kronenbourg",
+    "slug": "fckronenbourg",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USJA Carquefou",
+    "slug": "usjacarquefou",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CJF Fleury-les-Aubrais",
+    "slug": "cjffleurylesaubrais",
+    "country": "France",
+    "league": "Régional 1 - Centre Val de Loire",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Domératoise",
+    "slug": "asdomeratoise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Monnaie",
+    "slug": "usmonnaie",
+    "country": "France",
+    "league": "Régional 1 - Centre Val de Loire",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AC Amiens",
+    "slug": "acamiens",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Olympique Adamois",
+    "slug": "olympiqueadamois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Brioude",
+    "slug": "usbrioude",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Velay FC",
+    "slug": "velayfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Loon-Plage",
+    "slug": "fcloonplage",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Valdahon Vercel",
+    "slug": "fcvaldahonvercel",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Cluses Scionzier FC",
+    "slug": "clusesscionzierfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "JSC Bellevue",
+    "slug": "jscbellevue",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Fauverney Rouvres",
+    "slug": "esfauverneyrouvres",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Viry-Châtillon",
+    "slug": "esvirychatillon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Marseillais UC",
+    "slug": "stademarseillaisuc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Saint-Vit",
+    "slug": "ussaintvit",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Calais Beau Marais",
+    "slug": "calaisbeaumarais",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Eclaron",
+    "slug": "useclaron",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Rannée La Guerche",
+    "slug": "rcranneelaguerche",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Anzin Saint-Aubin",
+    "slug": "esanzinsaintaubin",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Equeurdreville",
+    "slug": "fcequeurdreville",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CSSM Le Havre",
+    "slug": "cssmlehavre",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Sporting Nord Isère",
+    "slug": "sportingnordisere",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "JA Isle",
+    "slug": "jaisle",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Saint-Jacques Foot",
+    "slug": "assaintjacquesfoot",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AC Arlésien",
+    "slug": "acarlesien",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Nanterre",
+    "slug": "esnanterre",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Castelbourgeois FC",
+    "slug": "stadecastelbourgeoisfc",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Mulhouse Football Réunis",
+    "slug": "mulhousefootballreunis",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - C",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Porto Portugais Amiens",
+    "slug": "fcportoportugaisamiens",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "OC Montauban-de-Bretagne",
+    "slug": "ocmontaubandebretagne",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Camon",
+    "slug": "uscamon",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Alban Aucamville FC",
+    "slug": "saintalbanaucamvillefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Cozes",
+    "slug": "ascozes",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Vandoeuvre",
+    "slug": "usvandoeuvre",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Sautron",
+    "slug": "assautron",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Montois Football",
+    "slug": "stademontoisfootball",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Champagnole",
+    "slug": "fcchampagnole",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Cergy Pontoise FC",
+    "slug": "cergypontoisefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Chambray FC",
+    "slug": "chambrayfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Melun",
+    "slug": "melun",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Saint-Louis Neuweg",
+    "slug": "fcsaintlouisneuweg",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Beauregard",
+    "slug": "fcbeauregard",
+    "country": "France",
+    "league": "No Division",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Eccica-Suarella",
+    "slug": "fceccicasuarella",
+    "country": "France",
+    "league": "Régional 1 - Corse",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "La Suze Roëzé FC",
+    "slug": "lasuzeroezefc",
+    "country": "France",
+    "league": "Régional - Pays de la Loire - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Itancourt Neuville",
+    "slug": "itancourtneuville",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Cherbourg Football",
+    "slug": "ascherbourgfootball",
+    "country": "France",
+    "league": "Régional 1 - Normandie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Saint-Médard-en-Jalles",
+    "slug": "fcsaintmedardenjalles",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Lourdes",
+    "slug": "fclourdes",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Romilly Pont St Pierre FC",
+    "slug": "romillypontstpierrefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Paron FC",
+    "slug": "paronfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Soissons IFC",
+    "slug": "soissonsifc",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Hettange-Grande",
+    "slug": "fchettangegrande",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ASC Pieve di Lota",
+    "slug": "ascpievedilota",
+    "country": "France",
+    "league": "Régional 1 - Corse",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Pont-Sainte-Maxence",
+    "slug": "uspontsaintemaxence",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Blanc-Mesnil SF",
+    "slug": "blancmesnilsf",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Golbey",
+    "slug": "esgolbey",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - C",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CS Meaux Académy",
+    "slug": "csmeauxacademy",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "COS Villers-lès-Nancy",
+    "slug": "cosvillerslesnancy",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - C",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Langueux",
+    "slug": "uslangueux",
+    "country": "France",
+    "league": "Régional 1 - Bretagne - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Le Touquet ACFCO",
+    "slug": "letouquetacfco",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "La France d'Aizenay",
+    "slug": "lafrancedaizenay",
+    "country": "France",
+    "league": "Régional - Pays de la Loire - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC La Flèche",
+    "slug": "rclafleche",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Chavanay",
+    "slug": "aschavanay",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SRD Saint-Dié Kellermann",
+    "slug": "srdsaintdiekellermann",
+    "country": "France",
+    "league": "Régional 1 - Grand Est - C",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USON Mondeville",
+    "slug": "usonmondeville",
+    "country": "France",
+    "league": "Régional 1 - Normandie - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Luçon FC",
+    "slug": "luconfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Saint-Leu 95",
+    "slug": "fcsaintleu95",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Montilliers",
+    "slug": "esmontilliers",
+    "country": "France",
+    "league": "Régional 1 - Pays de la Loire - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Colombienne Football",
+    "slug": "escolombiennefootball",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Berre SPC",
+    "slug": "berrespc",
+    "country": "France",
+    "league": "Régional 1 - Méditerranée",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Pierrots Vauban",
+    "slug": "aspierrotsvauban",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Rousson",
+    "slug": "asrousson",
+    "country": "France",
+    "league": "Régional 1 - Occitanie - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Misérieux-Trévoux",
+    "slug": "asmiserieuxtrevoux",
+    "country": "France",
+    "league": "Régional 1 - Auvergne RA - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Marseille Endoume",
+    "slug": "usmarseilleendoume",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Roubaix",
+    "slug": "rcroubaix",
+    "country": "France",
+    "league": "Régional 1 - Hauts de France - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Parthenay",
+    "slug": "rcparthenay",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - A",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Courbevoie SF",
+    "slug": "courbevoiesf",
+    "country": "France",
+    "league": "Régional 1 - Paris IDF - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Guipry-Messac",
+    "slug": "fcguiprymessac",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Lyon",
+    "slug": "fclyon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Eu FC",
+    "slug": "eufc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Vaux sur Blaise",
+    "slug": "usvauxsurblaise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Rezé FC",
+    "slug": "rezefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AF Garenne-Colombes",
+    "slug": "afgarennecolombes",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC La Tour / St Clair",
+    "slug": "fclatourstclair",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AL Deville Maromme",
+    "slug": "aldevillemaromme",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Echirolles",
+    "slug": "fcechirolles",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FA Carcassonne",
+    "slug": "facarcassonne",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Aix-les-Bains FC",
+    "slug": "aixlesbainsfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RCS La Chapelle",
+    "slug": "rcslachapelle",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Tournefeuille",
+    "slug": "astournefeuille",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Mayennais",
+    "slug": "stademayennais",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USC Paray-Foot",
+    "slug": "uscparayfoot",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Balagny Saint-Epin",
+    "slug": "usbalagnysaintepin",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Nebbiu",
+    "slug": "asnebbiu",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SC Abbeville Côte Picarde",
+    "slug": "scabbevillecotepicarde",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Pays Neslois",
+    "slug": "aspaysneslois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Cazères",
+    "slug": "uscazeres",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Royan Vaux AFC",
+    "slug": "royanvauxafc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Rethel SF",
+    "slug": "rethelsf",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Lilas FC",
+    "slug": "lilasfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CO Vincennois",
+    "slug": "covincennois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Fleurance La Sauvetat",
+    "slug": "asfleurancelasauvetat",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Nogent-sur-Seine",
+    "slug": "fcnogentsurseine",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "OL Saint-Liguaire",
+    "slug": "olsaintliguaire",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "UMS Montélimar",
+    "slug": "umsmontelimar",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Auvers-Poillé-Brûlon",
+    "slug": "auverspoillebrulon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Luc-Primaube FC",
+    "slug": "lucprimaubefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Erstein",
+    "slug": "aserstein",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Geispolsheim",
+    "slug": "fcgeispolsheim",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "EN Saint-Avold",
+    "slug": "ensaintavold",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Bourny Laval",
+    "slug": "asbournylaval",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Soleil Bischheim",
+    "slug": "fcsoleilbischheim",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Conques",
+    "slug": "usconques",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "JS Bonifacio",
+    "slug": "jsbonifacio",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Lons-le-Saunier",
+    "slug": "rclonslesaunier",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USM Montargis",
+    "slug": "usmmontargis",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Trémery",
+    "slug": "fctremery",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "La Brède FC",
+    "slug": "labredefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ROS Menton",
+    "slug": "rosmenton",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Guichen",
+    "slug": "fcguichen",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Portelois",
+    "slug": "stadeportelois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Noisy-Le-Grand FC",
+    "slug": "noisylegrandfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Bar FC",
+    "slug": "barfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Château-Thierry Etampes",
+    "slug": "chateauthierryetampes",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Salon Bel Air",
+    "slug": "salonbelair",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Auch Football",
+    "slug": "auchfootball",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CS Avion",
+    "slug": "csavion",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Baume-les-Dames",
+    "slug": "asbaumelesdames",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Lormont",
+    "slug": "uslormont",
+    "country": "France",
+    "league": "Régional 1 - Nelle Aquitaine - B",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "PI Vendargues",
+    "slug": "pivendargues",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USE Couzeix Chaptelat",
+    "slug": "usecouzeixchaptelat",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USSM Loos",
+    "slug": "ussmloos",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Valence",
+    "slug": "fcvalence",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Charité",
+    "slug": "uscharite",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Morangis-Chilly",
+    "slug": "fcmorangischilly",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Olympique Salaise Rhodia",
+    "slug": "olympiquesalaiserhodia",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Estuaire Haute Gironde",
+    "slug": "fcestuairehautegironde",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AC Port-de-Bouc",
+    "slug": "acportdebouc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AFC Creil",
+    "slug": "afccreil",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Chevrières Grandfresnoy",
+    "slug": "chevrieresgrandfresnoy",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Loudéac OSC",
+    "slug": "loudeacosc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Balarucois",
+    "slug": "stadebalarucois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Cenon",
+    "slug": "uscenon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Arceaux Montpellier",
+    "slug": "arceauxmontpellier",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GC Uchaud",
+    "slug": "gcuchaud",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Etoile Maritime FC",
+    "slug": "etoilemaritimefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Noeuxoise",
+    "slug": "usnoeuxoise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Neauphle-Pontchartrain",
+    "slug": "rcneauphlepontchartrain",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Saint-Georges",
+    "slug": "ussaintgeorges",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Val de Reuil",
+    "slug": "fcvaldereuil",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Roannais Foot 42",
+    "slug": "roannaisfoot42",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Quimper Kerfeunteun FC",
+    "slug": "quimperkerfeunteunfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "UF Saint-Herblain",
+    "slug": "ufsaintherblain",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Saint-Jacques",
+    "slug": "assaintjacques",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Bazeilles",
+    "slug": "usbazeilles",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Chevigny Saint-Sauveur",
+    "slug": "chevignysaintsauveur",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Elsau Portugais",
+    "slug": "aselsauportugais",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Fauvillaise",
+    "slug": "asfauvillaise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Oésienne",
+    "slug": "esoesienne",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CS Veymerange",
+    "slug": "csveymerange",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Sucy FC",
+    "slug": "sucyfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Brestoise",
+    "slug": "asbrestoise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Argentré-du-Plessis",
+    "slug": "argentreduplessis",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "JA Biarritz",
+    "slug": "jabiarritz",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Saint-Pierre-des-Corps",
+    "slug": "ussaintpierredescorps",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Pibrac",
+    "slug": "uspibrac",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Castelnau Le Crès FC",
+    "slug": "castelnaulecresfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Dol",
+    "slug": "esdol",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Grand Saint-Emilion",
+    "slug": "fcgrandsaintemilion",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Sierentz",
+    "slug": "fcsierentz",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Montivilliers",
+    "slug": "asmontivilliers",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Thaon BF",
+    "slug": "fcthaonbf",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Zacharienne",
+    "slug": "uszacharienne",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ASPTT Châlons",
+    "slug": "aspttchalons",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Andréa Macairois FC",
+    "slug": "andreamacairoisfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Lesquin",
+    "slug": "uslesquin",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Blotzheim",
+    "slug": "asblotzheim",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Olympique Girou",
+    "slug": "olympiquegirou",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "OH Tréfileries Neiges",
+    "slug": "ohtrefileriesneiges",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AC Chapelain Foot",
+    "slug": "acchapelainfoot",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Vichy",
+    "slug": "rcvichy",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Fontonne Antibes",
+    "slug": "asfontonneantibes",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SA Mamers",
+    "slug": "samamers",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FA Neuvilloise 96",
+    "slug": "faneuvilloise96",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Provin",
+    "slug": "usprovin",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Mont-Gaillard",
+    "slug": "esmontgaillard",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Elne FC",
+    "slug": "elnefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Baziège OC",
+    "slug": "baziegeoc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "JS St-Nicolas d'Aliermont",
+    "slug": "jsstnicolasdaliermont",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Etaples",
+    "slug": "asetaples",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FA Val Durance",
+    "slug": "favaldurance",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Hiriburuko",
+    "slug": "hiriburuko",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "OC Châteaudun",
+    "slug": "occhateaudun",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AJS Colleville Ouistreham",
+    "slug": "ajscollevilleouistreham",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Gasny",
+    "slug": "usgasny",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ESB Marboz",
+    "slug": "esbmarboz",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Lattes",
+    "slug": "aslattes",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Argentan",
+    "slug": "fcargentan",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Saint Serninoise",
+    "slug": "ussaintserninoise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Clamecy",
+    "slug": "asclamecy",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Orens FC",
+    "slug": "saintorensfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CA Vitry",
+    "slug": "cavitry",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Chauny",
+    "slug": "uschauny",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Vénissieux FC",
+    "slug": "venissieuxfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Bassin Piennois",
+    "slug": "fcbassinpiennois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Montataire FC",
+    "slug": "montatairefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CS Neuvillois",
+    "slug": "csneuvillois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Entente Nord Lozère",
+    "slug": "ententenordlozere",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Beaumontoise",
+    "slug": "usbeaumontoise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Perpignan FC Bas Vernet",
+    "slug": "perpignanfcbasvernet",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Blanquefort",
+    "slug": "esblanquefort",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Académie Sportive Moulins",
+    "slug": "academiesportivemoulins",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "OC Perpignan",
+    "slug": "ocperpignan",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Evry FC",
+    "slug": "evryfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FCF La Neuvillette-Jamin",
+    "slug": "fcflaneuvillettejamin",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Trèbes FC",
+    "slug": "trebesfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CA Pithiviers",
+    "slug": "capithiviers",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ASJ La Chaussée St Victor",
+    "slug": "asjlachausseestvictor",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Saintes Football",
+    "slug": "essaintesfootball",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CA Boulay",
+    "slug": "caboulay",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Mussidan Saint-Medard",
+    "slug": "usmussidansaintmedard",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Lille Sud",
+    "slug": "fclillesud",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FCSR Obernai",
+    "slug": "fcsrobernai",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Sporting Club Angérien",
+    "slug": "sportingclubangerien",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FA Le Cendre",
+    "slug": "falecendre",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Bayonne Croisés",
+    "slug": "bayonnecroises",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Mesnil / Franqueville",
+    "slug": "usmesnilfranqueville",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Costa Verde",
+    "slug": "fccostaverde",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "UES Montmorillon",
+    "slug": "uesmontmorillon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SC Saint Pourcinois",
+    "slug": "scsaintpourcinois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Portugaise Joué",
+    "slug": "usportugaisejoue",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Avallon FCO",
+    "slug": "avallonfco",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Fameck",
+    "slug": "esfameck",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Perrouse",
+    "slug": "asperrouse",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Olympique Lumbrois",
+    "slug": "olympiquelumbrois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Parisienne",
+    "slug": "esparisienne",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USN Spay",
+    "slug": "usnspay",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Saint-Berthevin",
+    "slug": "ussaintberthevin",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Pamiers",
+    "slug": "fcpamiers",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Arnage Pontlieue",
+    "slug": "usarnagepontlieue",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Vaillante Angers FC",
+    "slug": "vaillanteangersfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CO Castelnaudary",
+    "slug": "cocastelnaudary",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CS Gravenchon",
+    "slug": "csgravenchon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GCO Bihorel",
+    "slug": "gcobihorel",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Champigny 94",
+    "slug": "fcchampigny94",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "RC Ancenis 44",
+    "slug": "rcancenis44",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "GS Haroué-Benney",
+    "slug": "gsharouebenney",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FA Morlaas Est Bearn",
+    "slug": "famorlaasestbearn",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CS Arpajon",
+    "slug": "csarpajon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Essartais",
+    "slug": "fcessartais",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Jura Nord",
+    "slug": "juranord",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Plancoët Arguenon FC",
+    "slug": "plancoetarguenonfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Pont-l'Abbé",
+    "slug": "fcpontlabbe",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Hagenthal-Wentzwiller",
+    "slug": "fchagenthalwentzwiller",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Saint Thegonnec",
+    "slug": "essaintthegonnec",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Amicale Houlme Bondeville",
+    "slug": "amicalehoulmebondeville",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Saint-Sauveur",
+    "slug": "ussaintsauveur",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "USG Larmor Plage",
+    "slug": "usglarmorplage",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Sainte Barbe Oignies",
+    "slug": "assaintebarbeoignies",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "UL Plantières",
+    "slug": "ulplantieres",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "JO Le Creusot",
+    "slug": "jolecreusot",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Saint-Privat",
+    "slug": "assaintprivat",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Hirtzbach",
+    "slug": "fchirtzbach",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Cécilien Martinoyen",
+    "slug": "fccecilienmartinoyen",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Artix Foot",
+    "slug": "asartixfoot",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FEC La Chaize",
+    "slug": "feclachaize",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Entente Sud Revermont",
+    "slug": "ententesudrevermont",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Asfeld",
+    "slug": "asasfeld",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Biachoise",
+    "slug": "usbiachoise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Ploemeur 56",
+    "slug": "fcploemeur56",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Saint-Maximin",
+    "slug": "ussaintmaximin",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Santes",
+    "slug": "fcsantes",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Sochaux",
+    "slug": "ussochaux",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Rungis",
+    "slug": "usrungis",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Gouesnou",
+    "slug": "fcgouesnou",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CSL Chenôve",
+    "slug": "cslchenove",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Méditerranée 34",
+    "slug": "asmediterranee34",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Saint Simon",
+    "slug": "essaintsimon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CSL Aulnay",
+    "slug": "cslaulnay",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Villars",
+    "slug": "usvillars",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Amicale de Lucé",
+    "slug": "amicaledeluce",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Méru-Sandricourt",
+    "slug": "usmerusandricourt",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Etoile Saint-Laurent",
+    "slug": "etoilesaintlaurent",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Madrillet",
+    "slug": "asmadrillet",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "LC Bretteville/Odon",
+    "slug": "lcbrettevilleodon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC La Ribère",
+    "slug": "fclaribere",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SC Langogne",
+    "slug": "sclangogne",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Ascq",
+    "slug": "usascq",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Cholet Football Club",
+    "slug": "choletfootballclub",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Baldenheim",
+    "slug": "usbaldenheim",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Gérardmer",
+    "slug": "asgerardmer",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CAP Charenton",
+    "slug": "capcharenton",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Laillé",
+    "slug": "uslaille",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Prigonrieux FC",
+    "slug": "prigonrieuxfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Bayard Saumur",
+    "slug": "asbayardsaumur",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Châtenois les Forges",
+    "slug": "uschatenoislesforges",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Mars-La-Brière",
+    "slug": "saintmarslabriere",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Mont-Saint-Aignan FC",
+    "slug": "montsaintaignanfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Tarentaise",
+    "slug": "estarentaise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Elvinoise Foot",
+    "slug": "elvinoisefoot",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Gières",
+    "slug": "usgieres",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Emblavez Vorey",
+    "slug": "asemblavezvorey",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Just-en-Chaussée",
+    "slug": "saintjustenchaussee",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Ernéenne",
+    "slug": "erneenne",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "F.A Bourbaki Pau",
+    "slug": "fabourbakipau",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Eure-Madrie-Seine",
+    "slug": "fceuremadrieseine",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Gambsheim",
+    "slug": "gambsheim",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AC Saint-Brevin",
+    "slug": "acsaintbrevin",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Saint-Grégoire",
+    "slug": "ussaintgregoire",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Bart",
+    "slug": "fcbart",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Buire Hirson Thiérache",
+    "slug": "usbuirehirsonthierache",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Enfants de Guer",
+    "slug": "enfantsdeguer",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Steinseltz",
+    "slug": "fcsteinseltz",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Côte Saint-André",
+    "slug": "fccotesaintandre",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Varennoise",
+    "slug": "asvarennoise",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Nogent",
+    "slug": "usnogent",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Igny",
+    "slug": "fcigny",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "US Annecy-Le-Vieux",
+    "slug": "usannecylevieux",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AFC Blois",
+    "slug": "afcblois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ESM Brétignolles Brem",
+    "slug": "esmbretignollesbrem",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Talence",
+    "slug": "fctalence",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "CS Amphion-Publier",
+    "slug": "csamphionpublier",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Bellecour-Perrache",
+    "slug": "asbellecourperrache",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Tiercé Cheffes",
+    "slug": "astiercecheffes",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Des Achards",
+    "slug": "fcdesachards",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "MJC Gruissan FC",
+    "slug": "mjcgruissanfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "SCM Valdoie",
+    "slug": "scmvaldoie",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Pleudihennais",
+    "slug": "stadepleudihennais",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AV S Gignacois",
+    "slug": "avsgignacois",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Ludres",
+    "slug": "asludres",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Cahors FC",
+    "slug": "cahorsfc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "JS Montchanin Odra",
+    "slug": "jsmontchaninodra",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Morhange",
+    "slug": "asmorhange",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Vigilante Saint-Fulgent",
+    "slug": "vigilantesaintfulgent",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Stade Chevillonnais",
+    "slug": "stadechevillonnais",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "OC Eybens",
+    "slug": "oceybens",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Saint-Etienne Rouvray",
+    "slug": "fcsaintetiennerouvray",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "EA Scaër",
+    "slug": "eascaer",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Saint-Genès-Champanelle",
+    "slug": "saintgeneschampanelle",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "FC Villars-L'Isle",
+    "slug": "fcvillarslisle",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Nogent Le Roi",
+    "slug": "esnogentleroi",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Boulogne-Péguilhan",
+    "slug": "boulognepeguilhan",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AS Montchat Lyon",
+    "slug": "asmontchatlyon",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "ES Rachais",
+    "slug": "esrachais",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "AF Laxou Sapinière",
+    "slug": "aflaxousapiniere",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "UF Lézignan",
+    "slug": "uflezignan",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  },
+  {
+    "name": "Noyal-Brécé FC",
+    "slug": "noyalbrecefc",
+    "country": "France",
+    "league": "Championnat Inférieures",
+    "level": "top",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#cccccc"
+    }
+  }
 ]
